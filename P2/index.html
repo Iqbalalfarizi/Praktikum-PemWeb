@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-title">
+            <img class="header-title-img" src="./assets/images.jpg" alt="Picture">
+            <div class="header-title-deskripsi">
+                <h2>Hai Saya Iqbal Alfarizi</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="navbar">
+                <ul class="ul-navbar">
+                    <li><a class="li-navbar" href="">Tentang Saya</a></li>
+                    <li><a class="li-navbar" href="">Pengalaman Kerja</a></li>
+                    <li><a class="li-navbar" href="">Kontak Saya</a></li>
+                </ul>
+            </div>
+            <br />
+            <h3>Tentang Saya</h3>
+            <div class="description">
+                <p class="description-me">Saya merupakan mahasiswa Teknik Informatika Institut Teknologi Sumatera. Saya
+                    adalah mahasiswa
+                    angkatan
+                    2020 yang sekarang telah memasuki tingkat 3. Saat ini saya mengambil mata kuliah Pemrograman Web
+                    yang
+                    merupakan mata kuliah pilihan utama.
+                </p>
+                <video class="video-me" controls poster="./assets/images.jpg">
+                    <source src="./assets/videoplayback.mp4" type="video/mp4">
+
+                </video>
+            </div>
+            <div>
+                <h3>Pengalaman Kerja</h3>
+                <table class="table">
+                    <tr>
+                        <th rowspan="2">No</th>
+                        <th rowspan="2">Posisi</th>
+                        <th rowspan="2">Perusahaan</th>
+                        <th colspan="2">Waktu</th>
+                    </tr>
+                    <tr>
+                        <th>Mulai</th>
+                        <th>Selesai</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Marketing</td>
+                        <td>Perusahaan XXX</td>
+                        <td>2018</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Marketing</td>
+                        <td>Perusahaan XXX</td>
+                        <td>2020</td>
+                        <td>2021</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h3>Hubungi Saya</h3>
+                <form class="form">
+                    <div class="input-name">
+                        <label>Nama</label>
+                        <input type="text">
+                    </div>
+                    <p>Apakah anda sudah melihat video saya</p>
+                    <div class="input-radio">
+                        <input type="radio" name="videocheck" value="sudah">
+                        <label>Sudah</label>
+                        <br />
+                        <input type="radio" name="videocheck" value="belum">
+                        <label>Belum</label>
+                    </div>
+                    <br />
+                    <p>Berbagai Sapaaan</p>
+                    <div class="input-checkbox">
+                        <input type="checkbox" value="Hallo">
+                        <label>Hallo</label>
+                        <br />
+                        <input type="checkbox" value="Hai">
+                        <label>Hai</label>
+                        <br />
+                        <input type="checkbox" value="Hi">
+                        <label>Hi</label>
+                        <br />
+                    </div>
+                    <button class="button">Kirim</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">Sampai Berjumpa Lagi</footer>
+    </main>
+</body>
+
+</html>
