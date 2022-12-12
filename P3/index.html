@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__title">
+            <img class="header__img" src="./assets/images.jpg" alt="Picture">
+            <div class="header__desc">
+                <h1 class="header__title-desc">Hai Saya <span style="color : rgba(150, 131, 228, 0.8)">Iqbal
+                        Alfarizi</span></h1>
+                <h4 class="header__title-text">Seorang Mahasiswa ITERA</h4>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li><a class="navbar__link" href="#tentangsaya">Tentang Saya</a></li>
+                <li><a class="navbar__link" href="#pengalaman">Pengalaman Kerja</a></li>
+                <li><a class="navbar__link" href="#contact">Kontak Saya</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <h3 class="section__title" id="tentangsaya">Tentang Saya</h3>
+            <div class="container d-flex">
+                <div class="tentangme">
+                    <p class="tentangme__desc">
+                        Saya merupakan mahasiswa Teknik Informatika Institut Teknologi Sumatera.
+                        Saya adalah mahasiswa angkatan
+                        2020 yang sekarang telah memasuki tingkat 3. Saat ini saya mengambil mata kuliah Pemrograman Web
+                        yang merupakan mata kuliah pilihan utama.
+                    </p>
+                </div>
+                <div class="tentangme__video">
+                    <iframe src="https://www.youtube.com/embed/OHz0xIR8uwI">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3 class="section__title" id="pengalaman">Pengalaman Kerja</h3>
+            <div class="container">
+                <table class="table">
+                    <tr>
+                        <th rowspan="2">No</th>
+                        <th rowspan="2">Posisi</th>
+                        <th rowspan="2">Perusahaan</th>
+                        <th colspan="2">Waktu</th>
+                    </tr>
+                    <tr>
+                        <th>Mulai</th>
+                        <th>Selesai</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Marketing</td>
+                        <td>Perusahaan XXX</td>
+                        <td>2018</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Marketing</td>
+                        <td>Perusahaan XXX</td>
+                        <td>2020</td>
+                        <td>2021</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h3 class="section__title" id="contact">Hubungi Saya</h3>
+            <div class="container">
+                <form class="form">
+                    <div class="input-name">
+                        <label for="nama">Nama</label>
+                        <input type="text" name="nama" id="nama" class="input-text">
+                    </div>
+                    <p>Apakah anda sudah melihat video saya</p>
+                    <div class="input-radio">
+                        <input type="radio" name="videocheck" value="sudah" id="sudah">
+                        <label for="sudah">Sudah</label>
+                        <br />
+                        <input type="radio" name="videocheck" value="belum" id="belum">
+                        <label for="belum">Belum</label>
+                    </div>
+                    <br />
+                    <button>Kirim</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">Sampai Berjumpa Lagi</footer>
+    </main>
+</body>
+
+</html>
